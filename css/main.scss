@@ -57,3 +57,61 @@ section {
 .hero  {
     text-align: center;
 }
+
+.left-col {
+
+    .subhead {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: gray;
+        letter-spacing: .1em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        line-height: 1.3em;
+        margin-top: .2em;
+    }
+
+    .primary-cta {
+        background: var(--prmary-color);
+        color: white;
+        text-decoration: none;
+        padding: .6em 1.3em;
+        font-size: 1.4em;
+        border-radius: 5em;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .watch-video__cta {
+        display: block;
+        margin-top: 1em;
+
+        img {
+            margin-right: .5em;
+        }
+    }
+}
+
+.hero-img {
+    width: 70%;
+    margin-top: 3em;
+}
+
+section.features-section {
+    background: #20272E;
+    color: white;
+}
+
+ul.features-list {
+    margin: 0;
+    padding-left: .1em;
+
+    li {
+        font-size: 1.1em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+    }
+
+}
