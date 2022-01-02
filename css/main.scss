@@ -231,3 +231,15 @@ nav {
     margin: .5em;
     cursor: pointer;
 }
+
+@media only screen and (min-width: 768px) {
+
+    .mobile-menu, .mobile-menu__exit {
+        display: none;
+    }
+
+    .navbar .container {
+        display: flex;
+    }
+    
+}
