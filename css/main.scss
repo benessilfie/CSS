@@ -107,6 +107,8 @@ section.features-section {
 ul.features-list {
     margin: 0;
     padding-left: .1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 
     li {
         font-size: 1.1em;
@@ -277,6 +279,11 @@ nav {
             font-weight: bold;
             border-radius: 5em;
             margin-top: -.2em;
+
+            &:hover {
+                background: var(--prmary-color);
+                color: white;
+            }
         }
 
     }
